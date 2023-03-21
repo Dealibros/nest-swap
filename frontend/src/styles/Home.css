@@ -1,0 +1,57 @@
+h3{
+  margin: 0 0 0.2rem  0;
+}
+
+h4{
+  margin: 0;
+  color: gray;
+}
+
+.home-header-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid rgb(176, 176, 176);
+  border-bottom: 1px solid rgb(176, 176, 176);
+  border-radius: 0.6rem;
+  padding-right:1rem
+}
+
+.profile-box-body{
+  padding: 0.4rem;
+}
+.profile-top-text{
+  margin-bottom: 0.7rem;
+}
+
+.profile-container{
+  margin-bottom: 0;
+  padding: 0.7rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  font-size: 1.4rem;
+  text-align: center;
+  margin-top: 0;
+  justify-content: center;
+}
+
+.profile-home-description{
+  margin-top: 0.7rem;
+  font-size: 1.1rem;
+  color: black;
+}
+.profile-contact {
+  margin-top: 0.4rem;
+  color: gray;
+}
+
+.home-details{
+  margin-top: 1.5rem;
+}
+
+.home-container{
+  width: 100%;
+  margin-left: 1.8rem;
+  background-color: aliceblue;
+}

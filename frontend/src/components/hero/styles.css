@@ -1,0 +1,22 @@
+.container {
+  height: 85vh;
+  background-color:rgb(251, 252, 252);
+}
+
+.wrapper {
+  padding: 0 0 0 2rem;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  text-align: center;
+}
+
+.homes-div {
+  flex: 1.5 1 0;
+  width: 100%;
+}
+
+.map-div {
+  flex: 1 1 0;
+  width: 10%;
+}

@@ -1,0 +1,329 @@
+body{
+  background-color:#fff;
+}
+hr{
+  margin-top: 1.5rem;
+  margin-bottom: 0.8rem;
+  border: none;
+  border-top: 1px solid #d9dee0;
+
+}
+
+.profile-header{
+font-size: 1.4rem;
+text-align: center;
+margin-bottom: 1.2rem;
+margin-top: 0;
+}
+
+.profile-panel{
+  width: 45%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 1.3rem;
+  padding: 2rem 2rem 1.1rem 2rem;
+  border: 1px solid rgb(224, 217, 217);
+}
+
+.profile-form{
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.upload-box{
+display: inline-block;
+width: 140px;
+height: 140px;
+border-radius: 100%;
+background-color: #e3e3e3;
+background-size: cover;
+background-position: 50%;
+overflow: hidden;
+vertical-align: middle;
+}
+
+.upload-box .target-box{
+  height: 100%;
+  cursor: pointer;
+}
+
+.input-profile-photo{
+  display: none;
+}
+
+.upload-box-with-button .button-photo-profile{
+  margin-left: 30px;
+}
+
+.button-photo-profile{
+  color: #191d1f;
+  background-color: #fff;
+  border-color: #e3e3e3;
+  border-radius: 2px;
+  white-space: normal;
+  outline: 0 none;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  padding: 6px 12px;
+  font-size: 14px;
+}
+
+
+.profile-details-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.profile-full-name-box{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+
+}
+
+.profile-name-text {
+  margin: 0 0.8rem 0 0;
+}
+
+.profile-last-name-text {
+  margin: 0 0.8rem 0 4rem;
+}
+
+.profile-birth-email-phone {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.profile-email-text {
+  margin: 0 3.8rem 0 0;
+}
+
+.profile-phone-text {
+  margin: 0 0.5rem 0 6.2rem;
+}
+
+input[type="text"] {
+  font-size: 16px;
+}
+
+.profile-input{
+  width: 13rem;
+  height: 18px;
+  padding: 6px 12px;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+}
+
+.profile-textarea{
+  font-size: 16px;
+  width: 95%;
+  height: 12%;
+  padding: 10px 14px;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+
+}
+
+.profile-input:focus {
+  border-color:#e3e3e3;
+  outline: 0;
+  box-shadow: 0 0 3px #3b99fc;
+}
+
+.profile-languages-text{
+  margin: 0 0 0.7rem 0;
+}
+
+.sub-text{
+font-size: 1rem;
+margin: 0 0 0.6rem 0;
+color: rgb(106, 103, 103);
+font-weight: 500;
+
+}
+
+.languages-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-languages{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 0.7rem;
+  column-gap: 3rem;
+}
+
+.lang{
+  font-size: 1rem;
+}
+
+.lang:before{
+  content: "";
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width: 18px;
+  height: 14px;
+  margin-right: 5px;
+  margin-left: 3px;
+  margin-bottom: 0.4rem;
+  vertical-align: middle;
+}
+
+.lang-fr:before{
+  content: "";
+  background-image: url(https://d2kzpkef14nfxb.cloudfront.net/images/website/flags/svg/fr.svg);
+}
+
+.lang-en:before{
+  content:"";
+  background-image:url(https://d2kzpkef14nfxb.cloudfront.net/images/website/flags/svg/gb.svg);
+}
+
+.lang-es:before {
+  content: "";
+  background-image: url(https://d2kzpkef14nfxb.cloudfront.net/images/website/flags/svg/es.svg);
+}
+
+.lang-pt:before {
+  content: "";
+  background-image: url(https://d2kzpkef14nfxb.cloudfront.net/images/website/flags/svg/pt.svg);
+}
+
+.lang-nl:before {
+  content: "";
+  background-image: url(https://d2kzpkef14nfxb.cloudfront.net/images/website/flags/svg/nl.svg);
+}
+
+.lang-ar:before {
+  content: "";
+  background-image: url(https://d2kzpkef14nfxb.cloudfront.net/images/website/flags/svg/sa.svg);
+}
+
+.lang-ch:before {
+  content: "";
+  background-image: url(https://d2kzpkef14nfxb.cloudfront.net/images/website/flags/svg/cn.svg);
+}
+
+.lang-jp:before {
+  content: "";
+  background-image: url(https://d2kzpkef14nfxb.cloudfront.net/images/website/flags/svg/jp.svg);
+  border: 1px solid #d5d7d8;
+}
+
+.lang-co:before {
+  content: "";
+  background-image: url(https://d2kzpkef14nfxb.cloudfront.net/images/website/flags/svg/kr.svg);
+  border: 1px solid #d5d7d8;
+
+}
+
+.lang-tu:before {
+  content: "";
+  background-image: url(https://d2kzpkef14nfxb.cloudfront.net/images/website/flags/svg/tr.svg);
+}
+
+.lang-gr:before {
+  content: "";
+  background-image: url(https://d2kzpkef14nfxb.cloudfront.net/images/website/flags/svg/gr.svg);
+}
+
+.lang-ru:before {
+  content: "";
+  background-image: url(https://d2kzpkef14nfxb.cloudfront.net/images/website/flags/svg/ru.svg);
+}
+
+.lang-de:before {
+  content: "";
+  background-image: url(https://d2kzpkef14nfxb.cloudfront.net/images/website/flags/svg/de.svg);
+}
+
+.lang-da:before {
+  content: "";
+  background-image: url(https://d2kzpkef14nfxb.cloudfront.net/images/website/flags/svg/dk.svg);
+}
+
+.lang-nb:before {
+  content: "";
+  background-image: url(https://d2kzpkef14nfxb.cloudfront.net/images/website/flags/svg/no.svg);
+}
+
+.lang-sv:before {
+  content: "";
+  background-image: url(https://d2kzpkef14nfxb.cloudfront.net/images/website/flags/svg/se.svg);
+}
+
+.profile-preferred-destinations-text{
+  margin: 1rem 0 0.2rem 0;
+}
+
+.destinations-div-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.choose-destination {
+  display: inline-block;
+  background-color: #e8ecef;
+  padding: 0.2rem 0.5rem;
+  margin: 0.5rem 0.5rem 0.5rem 0.4rem;
+  border: 1px solid rgb(235, 233, 233);
+  border-radius: 0.5rem;
+}
+
+.add-icon{
+  padding-right: 0.3rem;
+}
+
+.add-destination-text{
+  margin: 0.3rem 0 -0.1rem 0;
+  color: rgb(135, 132, 132);
+}
+
+.destination-input{
+  width: 40%;
+  margin-left: 0.5rem;
+  margin-top: 0;
+}
+
+.add-destinations-button{
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.profile-buttons{
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-submit-button{
+  width: 20%;
+
+}
+.profile-cancel-button{
+  width: 20%;
+  margin-left: 4rem;
+
+}

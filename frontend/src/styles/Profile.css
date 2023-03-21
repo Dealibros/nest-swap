@@ -1,0 +1,310 @@
+body {
+  background-color: #fff;
+}
+
+hr {
+  margin-top: 1.5rem;
+  margin-bottom: 0.8rem;
+  border: none;
+  border-top: 1px solid #d9dee0;
+
+}
+
+.profile-header{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  font-size: 1.4rem;
+  text-align: center;
+  margin-bottom: 1.2rem;
+  margin-top: 0;
+  justify-content: center;
+}
+
+.profile-header-left{
+
+}
+
+.profile-header-rigth {
+
+
+
+}
+
+.profile-panel {
+  width: 45%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 1.3rem;
+  padding: 2rem 3rem 1.1rem 3rem;
+  border: 1px solid rgb(224, 217, 217);
+}
+
+.profile-form {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.header-fullname{
+  margin-right: 3rem;
+  margin-bottom: 0;
+}
+
+.header-email{
+  margin-right: 3rem;
+  margin-top: 0.3rem;
+  font-size: 1.2rem;
+  color: rgb(93, 93, 93);
+}
+
+.uploaded-photo .target-box{
+height: 100%;
+}
+
+.uploaded-photo {
+  display: inline-block;
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+  background-color: #e3e3e3;
+  background-size: cover;
+  background-position: 50%;
+  overflow: hidden;
+  vertical-align: middle;
+
+}
+
+.profile-body{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+
+}
+
+.right-side-profile{
+  margin: 0 0 0 2.5rem;
+
+}
+
+.homes-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-side-profile{
+
+}
+
+.home-title-profile{
+margin: 0;
+}
+
+.home-blocks{
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  text-align: center;
+  padding-top: 0.5rem;
+  margin-top: 1rem;
+  height: 17.5em;
+  width: 98%;
+  background-color: rgb(242, 241, 233);
+  border-radius: 1rem;
+}
+
+.edit-icon{
+  margin: 0.7rem;
+  border: none
+}
+
+.languages-div{
+  display: flex;
+  flex-direction: row;
+}
+.profile-main-text {
+  margin: 0 0 0.7rem 0;
+}
+
+.profile-about-us{
+  color: gray;
+  margin-top: 0;
+}
+
+.sub-text {
+  font-size: 1rem;
+  margin: 0 0 0.6rem 0;
+  color: rgb(106, 103, 103);
+  font-weight: 500;
+
+}
+
+.languages-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-languages {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 0.7rem;
+  column-gap: 3rem;
+}
+
+.lang {
+  font-size: 1rem;
+}
+
+.lang:before {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width: 28px;
+  height: 24px;
+  margin-right: 0.4rem;
+  margin-left: 3px;
+  margin-bottom: 0.4rem;
+  vertical-align: middle;
+
+}
+
+.lang-fr:before {
+  content: "";
+  background-image: url(https://d2kzpkef14nfxb.cloudfront.net/images/website/flags/svg/fr.svg);
+
+}
+
+.lang-en:before {
+  content: "";
+  background-image: url(https://d2kzpkef14nfxb.cloudfront.net/images/website/flags/svg/gb.svg);
+}
+
+.lang-es:before {
+  content: "";
+  background-image: url(https://d2kzpkef14nfxb.cloudfront.net/images/website/flags/svg/es.svg);
+}
+
+.lang-pt:before {
+  content: "";
+  background-image: url(https://d2kzpkef14nfxb.cloudfront.net/images/website/flags/svg/pt.svg);
+}
+
+.lang-nl:before {
+  content: "";
+  background-image: url(https://d2kzpkef14nfxb.cloudfront.net/images/website/flags/svg/nl.svg);
+}
+
+.lang-ar:before {
+  content: "";
+  background-image: url(https://d2kzpkef14nfxb.cloudfront.net/images/website/flags/svg/sa.svg);
+}
+
+.lang-ch:before {
+  content: "";
+  background-image: url(https://d2kzpkef14nfxb.cloudfront.net/images/website/flags/svg/cn.svg);
+}
+
+.lang-jp:before {
+  content: "";
+  background-image: url(https://d2kzpkef14nfxb.cloudfront.net/images/website/flags/svg/jp.svg);
+  border: 1px solid #d5d7d8;
+}
+
+.lang-co:before {
+  content: "";
+  background-image: url(https://d2kzpkef14nfxb.cloudfront.net/images/website/flags/svg/kr.svg);
+  border: 1px solid #d5d7d8;
+
+}
+
+.lang-tu:before {
+  content: "";
+  background-image: url(https://d2kzpkef14nfxb.cloudfront.net/images/website/flags/svg/tr.svg);
+}
+
+.lang-gr:before {
+  content: "";
+  background-image: url(https://d2kzpkef14nfxb.cloudfront.net/images/website/flags/svg/gr.svg);
+}
+
+.lang-ru:before {
+  content: "";
+  background-image: url(https://d2kzpkef14nfxb.cloudfront.net/images/website/flags/svg/ru.svg);
+}
+
+.lang-de:before {
+  content: "";
+  background-image: url(https://d2kzpkef14nfxb.cloudfront.net/images/website/flags/svg/de.svg);
+}
+
+.lang-da:before {
+  content: "";
+  background-image: url(https://d2kzpkef14nfxb.cloudfront.net/images/website/flags/svg/dk.svg);
+}
+
+.lang-nb:before {
+  content: "";
+  background-image: url(https://d2kzpkef14nfxb.cloudfront.net/images/website/flags/svg/no.svg);
+}
+
+.lang-sv:before {
+  content: "";
+  background-image: url(https://d2kzpkef14nfxb.cloudfront.net/images/website/flags/svg/se.svg);
+}
+
+.profile-preferred-destinations-text {
+  margin: 1rem 0 0.5rem 0;
+}
+
+.destinations-div-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 0.5rem;
+}
+
+.choose-destination {
+  display: inline-block;
+  background-color: #e8ecef;
+  padding: 0.2rem 0.5rem;
+  margin: 0.5rem 0.5rem 0.5rem 0.4rem;
+  border: 1px solid rgb(235, 233, 233);
+  border-radius: 0.5rem;
+}
+
+.profile-home-header{
+  margin: 0.4rem 0 0.7rem 0;
+}
+
+.profile-about-home{
+  margin: 0;
+  color: rgb(134, 133, 133);
+}
+
+.reference-header{
+  margin-bottom: 0.4rem;
+}
+
+.guest-name{
+  color: rgb(134, 133, 133);
+}
+
+
+.profile-buttons {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-submit-button {
+  width: 20%;
+
+}
+
+.profile-cancel-button {
+  width: 20%;
+  margin-left: 4rem;
+
+}
